@@ -1,0 +1,99 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    /* Light gray background */
+}
+
+.login-title {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+    /* Dark gray text */
+}
+
+.login-form {
+    background-color: white;
+    /* White form background */
+    padding: 2rem;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    width: 300px;
+    /* Fixed width */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    /* Spacing between input fields */
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+    /* Block display for label */
+    font-weight: bold;
+    /* Bold label text */
+}
+
+input {
+    width: 100%;
+    /* Full width input */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+input:focus {
+    border-color: #4CAF50;
+    /* Green border on focus */
+    outline: none;
+    /* Remove outline */
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    /* Green button */
+    color: white;
+    /* White text */
+    font-weight: bold;
+    /* Bold button text */
+    cursor: pointer;
+    /* Pointer cursor */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+.login-button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+.create-account {
+    margin-top: 1rem;
+    /* Spacing above the link */
+}
+
+.create-account-link {
+    color: #4CAF50;
+    /* Green link */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold link text */
+}
+
+.create-account-link:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}

@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #4CAF50;
+    /* Green background */
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.navbar-list {
+    list-style-type: none;
+    /* Remove default bullets */
+    display: flex;
+    /* Horizontal layout */
+    justify-content: space-around;
+    /* Space between items */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin: 0 1rem;
+    /* Spacing between items */
+}
+
+.navbar-link {
+    color: white;
+    /* White text */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold text */
+    transition: color 0.3s;
+    /* Smooth color transition */
+}
+
+.navbar-link:hover {
+    color: #FFD700;
+    /* Gold color on hover */
+}

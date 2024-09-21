@@ -1,0 +1,74 @@
+.toggle-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    /* Adjust size as needed */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    color: #4CAF50;
+    /* Green color for the button */
+}
+
+.treatment-row {
+    animation: drop 0.3s ease;
+    /* Animation for the drop effect */
+}
+
+@keyframes drop {
+    from {
+        max-height: 0;
+        opacity: 0;
+    }
+
+    to {
+        max-height: 200px;
+        /* Adjust based on content */
+        opacity: 1;
+    }
+}
+
+.treatment-list {
+    padding-left: 1.5rem;
+    /* Indent the treatment list */
+    margin: 0;
+    /* Remove default margin */
+    list-style-type: disc;
+    /* Bullet points for list */
+}
+
+.treatment-list li {
+    margin-bottom: 0.5rem;
+    /* Spacing between treatment items */
+}
+
+.symptom-matching-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+    /* Center items vertically */
+    padding: 2rem;
+    background-color: #f4f4f4;
+    /* Light gray background */
+    min-height: 100vh;
+    /* Full height */
+}
+
+.symptom-table {
+    width: 80%;
+    /* Set a width for the table */
+    margin-top: 1rem;
+    /* Spacing above the table */
+    border-collapse: collapse;
+    /* Merge borders */
+}
+
+.symptom-table th,
+.symptom-table td {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    /* Light border */
+    text-align: left;
+    /* Left-aligned text */
+}
