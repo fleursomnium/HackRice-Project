@@ -16,6 +16,9 @@ const Navbar = () => {
           <Link to="/symptom-match" className="navbar-link">Feeling Any Symptoms?</Link>
         </li>
         <li className="navbar-item">
+          <Link to="/about-us" className="navbar-link">About Us</Link>
+        </li>
+        <li className="navbar-item">
           <Link to="/login" className="navbar-link">Login</Link>
         </li>
       </ul>

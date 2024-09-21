@@ -6,6 +6,7 @@ import FindClinics from './pages/FindClinics';
 import Login from './pages/Login';
 import Registration from './pages/Registration';
 import SymptomMatch from './pages/Symptom-Matching';
+import AboutUs from './pages/AboutUs';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/symptom-match" element={<SymptomMatch />} />
+        <Route path="/about-us" element={<AboutUs/>} />
 
       </Routes>
     </Router>
