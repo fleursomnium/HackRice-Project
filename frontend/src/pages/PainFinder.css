@@ -1,35 +1,83 @@
 /* Main Container */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  
-  /* Gender Selection Buttons */
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    margin: 10px;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Box Container for Text and Buttons */
+.selection-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the box */
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10vh; /* Moves the box higher on the page */
+}
+
+/* Gender Selection Title */
+.gender-selection-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px; /* Space between title and buttons */
+  text-align: center; /* Center the text */
+}
+
+/* Gender Selection Buttons */
+.gender-selection {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+}
+
+.gender-selection button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.gender-selection button:hover {
+  background-color: #45a049;
+}
+
+/* Flexbox container */
+.painfinder-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Aligns the content higher */
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 2rem; /* Optional padding for better spacing */
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the container fills available space */
+  width: 100%; /* Full width */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.body-outline {
+  width: 50%; /* Adjust the width to 50% of the container */
+  max-width: 600px; /* Set a maximum width for the image */
+  height: auto; /* Maintain the aspect ratio */
+}

@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-section">
         <h1>About Us</h1>
         <p>
-            After a certain point of life, we all experience aches and pains within our body, usually our backs, here at ThereMove
+            After a certain point of life, we all experience aches and pains within our body, usually our backs, here at TheraMove
             we want to help people eliminate joint pains, muscle aches, nerve damage, and back pains by showing exercises and movements that
             you can work on to help recover and strengthen body. 
         </p>
