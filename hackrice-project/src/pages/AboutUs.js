@@ -7,25 +7,24 @@ const About = () => {
         <div className="about-section">
         <h1>About Us</h1>
         <p>
-            Have you ever felt like you needed to see a doctor for a symptom but decided not to because of the bill that will 
-            be sent afterwards? Here at ClinicQuest we want to ensure that your body is well taken care of without the fear of 
-            heavy expenses. How our website works is if you are feeling any symptons, we can either help with minor treatments, or help
-            find clinics nearby that are within the preferred price range.
+            After a certain point of life, we all experience aches and pains within our body, usually our backs, here at ThereMove
+            we want to help people eliminate joint pains, muscle aches, nerve damage, and back pains by showing exercises and movements that
+            you can work on to help recover and strengthen body. 
         </p>
         </div>
         <div className="about-section">
         <h2>Our Mission</h2>
         <p>
-            Our team is dedicated to ensuring that everyone has access to the medical resources they require, 
-            regardless of location or circumstance. Your health is your wealth, we want as many people to not
-            only live for a good time but a long time as well.
+            Your health is your wealth, we should all strive to be able to move freely without any hinderance due to pains. We want
+            Parent's to be able to play with their kids outside. Owners should be able to walk their dogs, and Father's should be able to
+            walk their daughter down the isle. We should not only live for a good time, but a long time as well.
         </p>
         </div>
         <div className="about-section">
         <h2>Our Team</h2>
         <p>
             We are a group of passionate individuals from various backgrounds, all united by the mission to make
-            healthcare more accessible for everyone. 
+            physical therapy and exercise knowledge more open to everyone.
         </p>
         </div>
     </div>

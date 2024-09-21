@@ -10,10 +10,7 @@ const Navbar = () => {
           <Link to="/" className="navbar-link">Home</Link>
         </li>
         <li className="navbar-item">
-          <Link to="/find-clinics" className="navbar-link">Find Clinics</Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="/symptom-match" className="navbar-link">Feeling Any Symptoms?</Link>
+          <Link to="/pain-finder" className="navbar-link">Pain Finder</Link>
         </li>
         <li className="navbar-item">
           <Link to="/about-us" className="navbar-link">About Us</Link>
