@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import './PainFinder.css'; 
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import './PainFinder.css';
 
-// Main component that handles gender selection and body part interaction
 const PainFinder = () => {
-  const [gender, setGender] = useState(null);
+  const navigate = useNavigate(); // React Router hook to navigate
   const [selectedBodyPart, setSelectedBodyPart] = useState(null);
 
   const handleSelectGender = (selectedGender) => {
-    setGender(selectedGender);
+    // Navigate to the new page depending on the selected gender
+    navigate(`/${selectedGender}page`);
   };
 
   const handleBodyPartClick = (bodyPart) => {
@@ -16,35 +17,13 @@ const PainFinder = () => {
 
   return (
     <div className="painfinder-container">
-      {!gender ? (
-        <div className="selection-box">
-          <h2 className="gender-selection-title">Choose Male or Female</h2>
-          <div className="gender-selection">
-            <button onClick={() => handleSelectGender('male')}>Male</button>
-            <button onClick={() => handleSelectGender('female')}>Female</button>
-          </div>
+      <div className="selection-box">
+        <h2 className="gender-selection-title">Choose Male or Female</h2>
+        <div className="gender-selection">
+          <button onClick={() => handleSelectGender('male')}>Male</button>
+          <button onClick={() => handleSelectGender('female')}>Female</button>
         </div>
-      ) : (
-        <div className="svg-container">
-          {/* Render the appropriate SVG based on selected gender */}
-          {gender === 'male' ? (
-            <img
-              src="/maleBodyOutline.svg"
-              alt="Male Body"
-              className="body-outline"
-              onClick={() => handleBodyPartClick('shoulder')}
-            />
-          ) : (
-            <img
-              src="/femaleBodyOutline.svg"
-              alt="Female Body"
-              className="body-outline"
-              onClick={() => handleBodyPartClick('knee')}
-            />
-          )}
-        </div>
-      )}
-
+      </div>
     </div>
   );
 };

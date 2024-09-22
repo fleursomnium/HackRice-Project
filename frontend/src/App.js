@@ -7,6 +7,8 @@ import Registration from './pages/Registration';
 import AboutUs from './pages/AboutUs';
 import PainFinder from './pages/PainFinder';
 import PainModel from './pages/PainModel';
+import MalePage from './pages/MalePage';
+import FemalePage from './pages/FemalePage';
 
 
 
@@ -20,7 +22,8 @@ function App() {
         <Route path="/registration" element={<Registration />} />
         <Route path="/about-us" element={<AboutUs/>} />
         <Route path="/pain-finder" element={<PainFinder/>} />
-
+        <Route path="/malepage" element={<MalePage/>} />
+        <Route path="/femalepage" element={<FemalePage/>} />
       </Routes>
     </Router>
   );
