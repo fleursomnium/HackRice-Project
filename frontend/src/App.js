@@ -6,7 +6,6 @@ import Login from './pages/Login';
 import Registration from './pages/Registration';
 import AboutUs from './pages/AboutUs';
 import PainFinder from './pages/PainFinder';
-import PainModel from './pages/PainModel';
 import MalePage from './pages/MalePage';
 import FemalePage from './pages/FemalePage';
 
